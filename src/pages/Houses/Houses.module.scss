@@ -1,0 +1,16 @@
+.houses {
+	padding: 40px;	
+}
+
+.item {
+	list-style-type: none;
+}
+
+.item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
